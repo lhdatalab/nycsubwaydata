@@ -1,7 +1,7 @@
 import pandas
 import matplotlib.pyplot as plt
 
-# Get annual and monthly weather data
+# Get annual and monthly weather data for NYC in 2011
 weather_data = pandas.read_csv("wunderground_2011_NYC.csv")
 turnstile_data = pandas.read_csv("turnstile_weather_v2.csv")
 weather_data[' Max Wind SpeedMPH'].describe()
